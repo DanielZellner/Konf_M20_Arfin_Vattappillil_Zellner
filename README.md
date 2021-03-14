@@ -1,2 +1,3 @@
 # Konf_M20_Arfin_Vattappillil_Zellner
-Das ist das erste repository zu abgeben
+1. commit Zellner: to set all up
+2. commit Zellner: Cocktail class created, extends Drink class
