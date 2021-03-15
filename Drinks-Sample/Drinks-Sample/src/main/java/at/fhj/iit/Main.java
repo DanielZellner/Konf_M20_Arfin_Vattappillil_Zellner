@@ -7,6 +7,7 @@ public class Main {
         Liquid l = new Liquid("Wein", 0.125, 13);
         Liquid w = new Liquid("Whiskey", 0.125, 40);
 	Liquid v = new Liquid("Vodka", 0.234, 30);
+	Liquid g = new Liquid("Gin", 0.125, 40);
         System.out.println(l.getName());
         System.out.println(l.getVolume());
         System.out.println(w.getName());
@@ -20,5 +21,7 @@ public class Main {
         System.out.println(wCola);
         Drink d1 = new SimpleDrink("Vodka",v);
         System.out.println(d1);
+        Drink g1 = new SimpleDrink("Gin",v);
+        System.out.println(g1);
     }
 }
