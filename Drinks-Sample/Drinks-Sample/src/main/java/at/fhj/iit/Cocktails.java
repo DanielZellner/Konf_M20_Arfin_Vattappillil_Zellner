@@ -51,6 +51,10 @@ public class Cocktails extends Drink{
         return false;
     }
 
+    public void setL(Liquid l) {
+        this.l = l;
+    }
+
     public String toString(){
         return "Cocktail called " + name + " with " + l.getAlcoholPercent() + " percent alcohol by volume";
     }
