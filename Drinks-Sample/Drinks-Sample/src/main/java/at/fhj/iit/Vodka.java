@@ -2,7 +2,7 @@ package at.fhj.iit;
 /**
  * represents a simple drink vodka which can be used in drinks
  */
-public abstract class Vodka extends Drink{
+public class Vodka extends Drink{
 	
 	/**
      * uses only one vodka
@@ -46,10 +46,9 @@ public abstract class Vodka extends Drink{
 	     */
 	    @Override
 	    public boolean isAlcoholic() {
-	        if(v.getAlcoholPercent() > 0){
-	            return true;
-	        }
-	        return false;
+
+	       return true;
+
 	    }
 
 	    public String toString(){
