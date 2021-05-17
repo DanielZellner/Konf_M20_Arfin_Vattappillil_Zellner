@@ -1,13 +1,8 @@
 package at.fhj.iit;
 
-public class Lemonade extends Drink { 
+public class Lemonade extends Drink {
 
-		
-		public Lemonade(String name) {
-			super(name);
-		}
 		protected Liquid l;
-
 	    /**
 	     * Creates a Cocktails object with given name and liquid
 	     *
