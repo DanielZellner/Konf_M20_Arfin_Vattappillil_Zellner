@@ -41,4 +41,10 @@ public abstract class Drink {
      * @return true when alcoholic liquids are present, otherwise false
      */
     public abstract boolean isAlcoholic();
+    /**
+     * Interface
+     */
+    interface Drinks{
+        public void selling(Drink a);
+    }
 }

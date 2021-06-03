@@ -13,7 +13,7 @@ public class Vodka extends Drink{
 	    * Creates a SimpleDrink object with given name and liquid
 	    *
 	    * @param name name of drink
-	    * @param l only one liquid in drink, because it's a simple drink an not e.g. a cocktail
+	    * @param v only one liquid in drink, because it's a simple drink an not e.g. a cocktail
 	    */
 	  Vodka(String name, Liquid v){
 	      super(name);
