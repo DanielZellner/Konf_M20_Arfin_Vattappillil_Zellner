@@ -49,3 +49,5 @@ the selling process is definded through a interface
             AlkSellsOver += a.getVolume() * 40;
     }
 ```
+#### 17:21
+selling branch is merged with main branch
