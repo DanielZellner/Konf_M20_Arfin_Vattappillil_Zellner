@@ -15,7 +15,7 @@ you have a method like: isAlcoholic(), this method returns true, so in your test
 ### Vattappillil:
 I opened IntelliJ and generated a test class. I had to download some specific JDK Versions and at first there were many problems because all of my imports didn't work. After some time repairing I tested everything and my Testclass was at 100%. 
 Quellen: [Stackoverflow](https://stackoverflow.com/), da wir Probleme mit der 16er Version hatten und deshalb die 15er Version brauchten. (Fehlermedlung: Could not initialize class org.jetbrains.jps.builders.JpsBuildBundle)
-### Test-Results:
+### Test-Results: (after the removal of the mistakes)
 |Class     | Class, %   | Method, %  | Line, %      |
 |----------|------------|------------|--------------|
 |Cocktails | 100% (1/1) | 100% (7/7) | 100% (13/13) | 
