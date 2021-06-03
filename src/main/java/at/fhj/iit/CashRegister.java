@@ -30,6 +30,11 @@ public class CashRegister implements Drink.Drinks {
     public double getTotalSells() {
         return nonAlkSells + AlkSellsUnder + AlkSellsOver;
     }
+    /**
+     * selling method to get the price
+     *
+     * @param a for Drinks
+     */
     @Override
     public void selling(Drink a) {
         if(a.getAlcoholPercent() == 0)
