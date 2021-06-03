@@ -51,3 +51,5 @@ the selling process is definded through a interface
 ```
 #### 17:21
 selling branch is merged with main branch
+#### 18:21
+maven site was created
