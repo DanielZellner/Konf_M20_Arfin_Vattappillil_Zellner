@@ -69,6 +69,26 @@
       <timezone>Europe/Vienna</timezone>
       <properties/>
     </developer>
+    <developer>
+      <id>danielzellner</id>
+      <name>Daniel Zellner</name>
+      <email>daniel.zellner@edu.fh-joanneum.at</email>
+      <organization>FH Joanneum GmbH</organization>
+      <roles>
+        <role>Student</role>
+      </roles>
+      <timezone>Europe/Vienna</timezone>
+    </developer>
+    <developer>
+      <id>MasterChick</id>
+      <name>Rony Vattappillil</name>
+      <email>rony.vattappillil@edu.fh-joanneum.at</email>
+      <organization>FH Joanneum GmbH</organization>
+      <roles>
+        <role>Student</role>
+      </roles>
+      <timezone>Europe/Vienna</timezone>
+    </developer>
   </developers>
 
   <properties>
@@ -89,5 +109,14 @@
         </configuration>
       </plugin>
     </plugins>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.9.1</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
   </build>
 </project>
