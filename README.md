@@ -26,3 +26,6 @@ Quellen: [Stackoverflow](https://stackoverflow.com/), da wir Probleme mit der 16
 Mistakes that were made in the first and the second task are mostly removed, and readme update, for easier reading
 
 ## Third task:
+### Zellner:
+#### 03.06.2021 16:52
+I created a Cash-Register class and a days class with JUnits-Tests with 100% coverage and a few updates in the main class to see if it works. At the moment it is all the selling branch and will be futher merged into the main branch
