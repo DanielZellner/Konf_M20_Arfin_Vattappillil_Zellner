@@ -1,10 +1,14 @@
 # Konf_M20_Arfin_Vattappillil_Zellner
 
 ## first Task
-Zellner: to set all up
-Zellner: Cocktail class created, extends Drink class
-Arfin: I've created a class name vodka, which is extends in Drink class. 
-Vattappillil; Created a class called Lemonade, extends Drink class. 
+#### Zellner:
+to set all up
+#### Zellner:
+Cocktail class created, extends Drink class
+#### Arfin:
+I've created a class name vodka, which is extends in Drink class. 
+#### Vattappillil:
+Created a class called Lemonade, extends Drink class. 
 
 ## second Task, 25.04.2021
 ### Arfin:
@@ -56,3 +60,60 @@ maven site was created
 #### 07.06.2021
 ##### Tests:
 All tests for the class cashregister and the class days gave a test-coverage of 100% (DaysTest and CashRegisterTest)
+##### 10:40
+pom.xml points on the right url, our repo
+##### 11:07
+in the src folder a site folder was created to give further infos in the doku
+### Tutorial:
+#### Project:
+Drinks-Project is a project to output several Drinks and sell them by several seller on a cash-register.
+##### First the init:
+```
+public abstract class Drink
+```
+abstract class Drink
+```
+public class Cocktails extends Drink
+```
+for example a Cocktail class which extends Drink-class
+```
+public class Liquid
+```
+Liquid class
+##### main class:
+```
+Liquid l = new Liquid("Wein", 0.125, 13);
+Liquid w = new Liquid("Whiskey", 0.125, 40);
+Liquid v = new Liquid("Vodka", 0.234, 30);
+Liquid g = new Liquid("Gin", 0.125, 40);
+Liquid c = new Liquid("Cola", 1, 0);
+```
+in main class, liquid init to use several liquids
+```
+Drink d = new SimpleDrink("Rotwein",l);
+System.out.println(d);
+Drink wCola = new Cocktails("Jack Daniels",w);
+System.out.println(wCola);
+Drink d1 = new SimpleDrink("Vodka",v);
+System.out.println(d1);
+Drink g1 = new SimpleDrink("Gin",g);
+System.out.println(g1);
+Drink cola = new Lemonade("Cola", c);
+System.out.println(cola);
+System.out.println();
+```
+Drinks get init with liquids and gives a output
+##### selling process:
+```
+Days day1 = new Days(1);
+day1.getDays().add(new CashRegister("Bob"));
+day1.getDays().add(new CashRegister("Hilde"));
+day1.getDays().add(new CashRegister("Jeff"));
+
+day1.getDays().get(0).selling(cola);
+day1.getDays().get(1).selling(g1);
+day1.getDays().get(2).selling(d);
+
+System.out.println(day1);
+```
+code descripes the selling process and give the output from a day
