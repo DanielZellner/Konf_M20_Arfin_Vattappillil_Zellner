@@ -117,3 +117,11 @@ day1.getDays().get(2).selling(d);
 System.out.println(day1);
 ```
 code descripes the selling process and give the output from a day
+### Last Commit and Disclaimer:
+pom.xml got modified and a site.xml, index.md got added.
+#### Important:
+the project-reports don't show up in regular documention you have to open the "project-reports.html" there is a docu for the javadoc for the Drinks-project.
+##### for the console:
+```
+mvn site
+```
