@@ -56,3 +56,5 @@ maven site was created
 #### 07.06.2021
 ##### Tests:
 All tests for the class cashregister and the class days gave a test-coverage of 100% (DaysTest and CashRegisterTest)
+##### 10:40
+pom.xml points on the right url, our repo
