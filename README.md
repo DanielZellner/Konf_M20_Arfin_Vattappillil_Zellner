@@ -32,7 +32,7 @@ Mistakes that were made in the first and the second task are mostly removed, and
 I created a Cash-Register class and a days class with JUnits-Tests with 100% coverage and a few updates in the main class to see if it works. At the moment it is all the selling branch and will be futher merged into the main branch
 ##### 16:55
 Update and information to the selling branch:
-The reason why i created to classes to implement the selling process, is the simple reason that now i have days class which can save all cash register user by their object, so basically one day object is definded through several cash register objects through a list.
+The reason why i created two classes to implement the selling process, is the simple reason that now i have days class which can save all cash register user by their object, so basically one day object is definded through several cash register objects through a list.
 ```
 public class Days {
     private ArrayList<CashRegister> DaysList = new ArrayList<>();
@@ -49,7 +49,10 @@ the selling process is definded through a interface
             AlkSellsOver += a.getVolume() * 40;
     }
 ```
-#### 17:21
+##### 17:21
 selling branch is merged with main branch
-#### 18:21
+##### 18:21
 maven site was created
+#### 07.06.2021
+##### Tests:
+All tests for the class cashregister and the class days gave a test-coverage of 100% (DaysTest and CashRegisterTest)
