@@ -49,7 +49,10 @@ the selling process is definded through a interface
             AlkSellsOver += a.getVolume() * 40;
     }
 ```
-#### 17:21
+##### 17:21
 selling branch is merged with main branch
-#### 18:21
+##### 18:21
 maven site was created
+#### 07.06.2021
+##### Tests:
+All tests for the class cashregister and the class days gave a test-coverage of 100% (DaysTest and CashRegisterTest)
